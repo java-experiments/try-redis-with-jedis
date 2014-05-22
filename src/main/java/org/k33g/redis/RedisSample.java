@@ -26,7 +26,7 @@ public class RedisSample {
       put("lastName", "Doe");
     }};
 
-    /* === save all to server === */
+    /* === save all humans to the redis server === */
 
     jedis.hmset("bob:male", bob);
     jedis.hmset("john:male", john);

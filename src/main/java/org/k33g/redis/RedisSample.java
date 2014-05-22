@@ -4,7 +4,6 @@ package org.k33g.redis;
 import redis.clients.jedis.Jedis;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 public class RedisSample {
 
